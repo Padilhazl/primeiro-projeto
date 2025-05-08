@@ -7,5 +7,102 @@
 
 body{
     font-size: 16px; /*Definir o tamanho da fonte base*/
-    font-family: 'Montserrat';/*Define o tamanho da fonte principal 
+    font-family: 'Montserrat';/*Define o tamanho da fonte principal*/
 }
+
+.inicio-fundo {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width:100% ;
+    height:606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/*posicionamento para a imagem à direita */
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top:18rem;
+    width:45rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio {
+   background-color: var(_-laranja-claro);
+   border-radius: 30px;
+   border: none;
+   width: 14em;
+   /*covertido para em aumenta o tamanho da fonte por tabele*/
+   heigtht: 3em;
+   /*convertido para em*/
+   align-content: center;
+   }
+   .display-4 {
+       text-shandow: -5px 5px; var (--laranja-claro);
+   }
+#tropicalia{
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: url('img/flor.png') top right no-repeat,
+       url('img/flor-esquerda.png') bottom leeft no-repeat;
+    background-size: 180px 180px;   
+    /*Ajuste o tamanho conforme necessário*/
+}
+#tropicalia.container {
+    display:f flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+     background-color: aliceblue;
+}
+.fundo-galeria{
+    background: url('img/flor-bottom-direita.png')bottom right no repeat;
+    background-size: 180px 180px;
+}
+#contato {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /*Espaçamento interno para a seção de contato*/
+}
+.formulario {
+    background-color: aliceblue; 
+    padding: 2rem;
+    /*Espaçamento interno dentro do formulário*?
+    border-radius: 10px;
+    /*borda arrendondada para o formulário*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*sombra suave para destacar o formulário*/
+}
+.formulario button {
+    background-color: #FF862A;
+    border: nome;
+    font-weight: bold;
+}
+/*chama classe do bootstrap para modificar a cor*/
+.form-control {
+    background-color: aliceblue;
+} 
